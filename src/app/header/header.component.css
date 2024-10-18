@@ -1,0 +1,28 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    text-align: center; /* Centraliza o texto na navbar */
+  }
+
+  .navbar-brand {
+    display: none; /* Oculta a marca da navbar */
+  }
+
+  .navbar-collapse {
+    display: flex; /* Flexbox para centralizar conteúdo */
+    flex-direction: column; /* Coloca os itens em coluna */
+    align-items: center; /* Alinha os itens ao centro */
+    padding: 15px 0; /* Adiciona padding vertical */
+  }
+
+  h1 {
+    font-size: 0.5rem; /* Reduz o tamanho da fonte do título */
+    margin-bottom: -1rem; /* Remove margens para evitar deslocamentos */
+    white-space: nowrap; /* Impede que o texto quebre para a próxima linha */
+    overflow: hidden; /* Oculta o texto que excede o contêiner */
+    text-overflow: ellipsis; /* Adiciona '...' se o texto for muito longo */
+  }
+
+  .navbar-toggler {
+    margin: 0 auto; /* Centraliza o botão de toggle */
+  }
+}

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+  div {
+    padding: 1rem; /* Mantém o padding */
+    margin-left: auto; /* Centraliza o container */
+    margin-right: auto; /* Centraliza o container */
+    max-width: 100%; /* Permite que o div use 100% da largura disponível */
+  }
+
+  img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 1rem; /* Mantém o espaço inferior */
+  }
+}

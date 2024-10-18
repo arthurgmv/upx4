@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+  div {
+    padding: 1rem; /* Mantém o padding */
+    margin-left: auto; /* Centraliza o container */
+    margin-right: auto; /* Centraliza o container */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Ajusta o tamanho da fonte do título */
+    margin-bottom: 1rem; /* Mantém o espaço inferior */
+    text-align: center; /* Garante que o título continue centralizado */
+  }
+
+  p {
+    font-size: 1rem; /* Define um tamanho de fonte adequado para dispositivos móveis */
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+    margin-bottom: 1rem; /* Mantém o espaço inferior */
+    text-align: center; /* Garante que o texto continue centralizado */
+  }
+}
