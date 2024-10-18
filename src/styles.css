@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+@media only screen and (max-width: 768px) {
+  body {
+    text-align: center; /* Centraliza todo o texto dentro do body */
+    padding: 0 15px; /* Adiciona um padding lateral ao body */
+  }
+
+  div {
+    text-align: center; /* Centraliza o texto dentro das divs */
+    margin: 0 auto; /* Centraliza as divs dentro do body */
+    padding: 10px; /* Adiciona padding às divs */
+    max-width: 100%; /* Garante que as divs não ultrapassem a largura da tela */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    margin: 0; /* Remove margens para evitar deslocamentos */
+    padding: 10px; /* Adiciona um pouco de padding para melhor visualização */
+    font-size: 1rem; /* Define um tamanho de fonte adequado para dispositivos móveis */
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+    overflow-wrap: break-word; /* Quebra palavras longas se necessário */
+  }
+
+  img {
+    display: block; /* Faz a imagem ser um bloco para que o margin auto funcione */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+}

@@ -27,7 +27,8 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -82,8 +83,12 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
-            ],
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "/assets"
+              }],
             "styles": [
               "src/styles.css"
             ],
@@ -92,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fe5fad10-4f7f-4673-8085-cabe779cd6e6"
   }
 }
